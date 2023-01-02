@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <!-- 視覺滾差套件 aos -->
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- goole font: Poppins -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- goole font: Roboto -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- 輪播套件 swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- 返回頂端 ↑ -->
+  <a href="#" id="arrowUp" class="animate__animated animate__fadeInUp"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <!-- 頂端 -->
+  <section id="top">
+    <div class="row">
+      <div class="col">
+        <a href="#">
+          <img src="./images/logo-light.png"></a>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="#">Home <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Service <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href="#">Portfoilo <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#"><i class="fa-solid fa-2x fa-magnifying-glass"></i></a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-2x fa-bars"></i>
+      </div>
+    </div>
+    <ul class="list animate__animated" id="homeList">
+      <li><a href="#">Home-1</a></li>
+      <li><a href="#">Home-2</a></li>
+      <li><a href="#">Home-3</a></li>
+      <li><a href="#">Home-4</a></li>
+      <li><a href="#">Home-5</a></li>
+      <li><a href="#">Home-6</a></li>
+    </ul>
+    <ul class="list animate__animated" id="serviceList">
+      <li><a href="#">Services-1</a></li>
+      <li><a href="#">Services-2</a></li>
+    </ul>
+    <ul class="list animate__animated" id="portfoiloList">
+      <li><a href="#">portfoilo-Blocks</a></li>
+      <li><a href="#">portfoilo-Grid</a></li>
+      <li><a href="#">portfoilo-Grid Rounded</a></li>
+      <li><a href="#">portfoilo-Silder</a></li>
+      <li><a href="#">portfoilo-Single</a></li>
+    </ul>
+    <ul class="list animate__animated" id="blogList">
+      <li><a href="#">Blog Home <i class="fa-solid fa-chevron-down"></i></a></li>
+      <li><a href="#">Single Post</a></li>
+    </ul>
+    <ul class="list animate__animated" id="pagesList">
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Our Team</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">404</a></li>
+    </ul>
+    <ul class="list animate__animated" id="BlogHomeList">
+      <li><a href="#">Blog Home 1</a></li>
+      <li><a href="#">Blog Home 2</a></li>
+      <li><a href="#">Blog Home 3</a></li>
+    </ul>
+  </section>
+
+  <!-- 側邊攔 -->
+  <ul id="sidebar" class="list animate__animated animate__slideOutLeft">
+    <li>
+      <a id="Home" href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+    </li>
+    <ul class="animate__animated" id="homeList">
+      <li><a href="#">Home-1</a></li>
+      <li><a href="#">Home-2</a></li>
+      <li><a href="#">Home-3</a></li>
+      <li><a href="#">Home-4</a></li>
+      <li><a href="#">Home-5</a></li>
+      <li><a href="#">Home-6</a></li>
+    </ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Service <i class="fa-solid fa-chevron-down"></i></a></li>
+    <ul class="animate__animated" id="serviceList">
+      <li><a href="#">Services-1</a></li>
+      <li><a href="#">Services-2</a></li>
+    </ul>
+    <li><a href="#">Portfoilo <i class="fa-solid fa-chevron-down"></i></a> </li>
+    <ul class="animate__animated" id="portfoiloList">
+      <li><a href="#">portfoilo-Blocks</a></li>
+      <li><a href="#">portfoilo-Grid</a></li>
+      <li><a href="#">portfoilo-Grid Rounded</a></li>
+      <li><a href="#">portfoilo-Silder</a></li>
+      <li><a href="#">portfoilo-Single</a></li>
+    </ul>
+    <li><a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a></li>
+    <ul class="animate__animated" id="blogList">
+      <li><a href="#">Blog Home <i class="fa-solid fa-chevron-down"></i></a></li>
+      <ul class="animate__animated" id="BlogHomeList">
+        <li><a href="#">Blog Home 1</a></li>
+        <li><a href="#">Blog Home 2</a></li>
+        <li><a href="#">Blog Home 3</a></li>
+      </ul>
+      <li><a href="#">Single Post</a></li>
+    </ul>
+    <li><a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a></li>
+    <ul class="animate__animated" id="pagesList">
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Our Team</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">404</a></li>
+    </ul>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+
+  <!-- 輪播 1 -->
+  <section id="carousel1">
+    <div class="container">
+      <div id="swiper1" class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1>Innovating Stunning<br>Interior Designs</h1>
+            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+              Sed architecto dolorum inventore totam adipisci provident placeat persp</p>
+            <button>Start Now <i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+          <div class="swiper-slide">
+            <h1>Graet & Solid<br>Architecture Solutio</h1>
+            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+              Sed architecto dolorum inventore totam adipisci provident placeat persp</p>
+            <a href="#" id="watchVideo">
+              <img src="./images/play-icon.svg" style="width:30px"> &ensp;
+              <span>Watch Our Video</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <h1>Providing Standout<br>Furniture Choices</h1>
+            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+              Sed architecto dolorum inventore totam adipisci provident placeat persp</p>
+            <button>Download Catalog <i class="fa-solid fa-download"></i></i></button>
+          </div>
+        </div>
+        <!-- 分頁 -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- 上一張、下一張 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <ul id="icons">
+        <li> <a href="#"><i class="fa-brands fa-facebook" title="facebook"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-youtube" title="youtube"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-instagram" title="instagram"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-twitter" title="twitter"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 輪播 2 -->
+  <section id="carousel2">
+    <div class="container">
+      <div id="swiper2" class="swiper" data-aos="fade-up" data-aos-duration="1500">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+            <img src="./images/carousel2-1.jpg">
+          </div>
+          <div class="swiper-slide">
+            <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+            <img src="./images/carousel2-2.jpg">
+          </div>
+          <div class="swiper-slide">
+            <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+            <img src="./images/carousel2-3.jpg">
+          </div>
+          <div class="swiper-slide">
+            <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+            <img src="./images/carousel2-4.jpg">
+          </div>
+          <div class="swiper-slide">
+            <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+            <img src="./images/carousel2-5.jpg">
+          </div>
+          <div class="swiper-slide">
+            <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+            <img src="./images/carousel2-6.jpg">
+          </div>
+        </div>
+        <!-- 上一張、下一張 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="aboutUs">
+    <div class="container">
+      <div class="row">
+        <div id="left" class="col animate__animated animate__fadeInUp animate__delay-1s">
+          <h3><i class="fa-sharp fa-solid fa-square"></i> ABOUT US <i class="fa-sharp fa-solid fa-square"></i>
+          </h3>
+          <h1>Have A Closer Look At Our Done Works</h1>
+          <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, aliquam est! rerum inventore animi
+            at
+            iusto totam sunt accusamus quia</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, aliquam est! rerum inventore animi at
+            iusto mollitia nemo reprehenderit dignissimos voluptate eos Repellendus tenetur officia excepturi dolorum
+            totam sunt accusamus quia fugiat quasi</p>
+          <div id="aboutNum">
+            <div id="project">
+              <i class="fa-sharp fa-solid fa-plus fa-3"></i>
+              <div>
+                <span>700</span>
+                <p>PROJECTS</p>
+              </div>
+            </div>
+            <div id="clients">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              <div>
+                <span>900</span>
+                <p>CLIENTS</p>
+              </div>
+            </div>
+            <div id="hours">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              <div>
+                <span>980</span>
+                <p>HOURS</p>
+              </div>
+            </div>
+          </div>
+          <button>Learn More</button>
+        </div>
+
+        <div id="right" class="col animate__animated animate__fadeInUp">
+          <div id="area">
+            <img id="big" src="./images/aboutUs-big.jpg">
+            <img id="little" src="./images/aboutUs-little.png">
+            <div id="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="service">
+    <div class="container">
+      <div class="row">
+        <div id="left" class="col" data-aos="fade-up" data-aos-duration="1500">
+          <h3><i class="fa-sharp fa-solid fa-square fa-2xs"></i> OUR SERVICES <i
+              class="fa-sharp fa-solid fa-square fa-2xs"></i></h3>
+          <h1>Services You Will Get By Joining Us.</h1>
+          <button>See All Services</button>
+        </div>
+
+        <div id="right" class="col">
+          <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+            <div class="card">
+              <span><i class="fa-solid fa-pen-ruler"></i></span>
+              <h2>Creative Solutions</h2>
+              <p>Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis tempore perferendis explicabo.</p>
+              <p><a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a></p>
+            </div>
+            <div class="card">
+              <span><i class="fa-solid fa-compass-drafting"></i></span>
+              <h2>Solid Development</h2>
+              <p>Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis tempore perferendis explicabo.</p>
+              <a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+            <div class="card">
+              <span><i class="fa-solid fa-layer-group"></i></span>
+              <h2>Awesome Designs</h2>
+              <p>Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis tempore perferendis explicabo.</p>
+              <a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+              <span><i class=" fa-solid fa-couch"></i></span>
+              <h2>High-End Appearance</h2>
+              <p>Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis tempore perferendis explicabo.</p>
+              <a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customers -->
+  <section id="customers">
+    <div class="container">
+      <h1 data-aos="fade-right" data-aos-duration="1500">What Our Customers Says</h1>
+      <div id="symbol">
+        <i class="fa-solid fa-minus fa-2xs"></i> <i class="fa-sharp fa-solid fa-square fa-2xs"></i> <i
+          class="fa-solid fa-minus fa-2xs"></i>
+      </div>
+      <div id="swiper4" class="swiper" data-aos="fade-up" data-aos-duration="1500">
+        <div class="swiper-wrapper">
+          <div id="manager" class="swiper-slide">
+            <div id="name">
+              <img id="img" src="./images/customers-1.jpg">
+              <div>
+                <h5>Aly Ahmed</h5>
+                <h6>Manager</h6>
+              </div>
+            </div>
+            <div id="stars">
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-regular fa-2xs fa-star"></i>
+            </div>
+            <p id="content">
+              ipsum dolor sit amet<br>consectetur adipisicing elit.<br>
+              Quod, id sequi aut qui est ab,<br> corporis quis maiores<br>
+              reiciendis explicabo odio<br> tenetur nulla sint vel.
+            </p>
+            <span id="quote"><i class="fa-solid fa-quote-left"></i></span>
+          </div>
+          <div id="manager" class="swiper-slide">
+            <div id="name">
+              <img id="img" src="./images/customers-2.jpg">
+              <div>
+                <h5>Allan Ahmed</h5>
+                <h6>Manager</h6>
+              </div>
+            </div>
+            <div id="stars">
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-regular fa-2xs fa-star"></i>
+            </div>
+            <p id="content">
+              ipsum dolor sit amet<br>consectetur adipisicing elit.<br>
+              Quod, id sequi aut qui est ab,<br> corporis quis maiores<br>
+              reiciendis explicabo odio<br> tenetur nulla sint vel.
+            </p>
+            <span id="quote"><i class="fa-solid fa-quote-left"></i></span>
+          </div>
+          <div id="manager" class="swiper-slide">
+            <div id="name">
+              <img id="img" src="./images/customers-3.jpg">
+              <div>
+                <h5>Maya Ahmed</h5>
+                <h6>Manager</h6>
+              </div>
+            </div>
+            <div id="stars">
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-solid fa-2xs fa-star"></i>
+              <i class="fa-regular fa-2xs fa-star"></i>
+            </div>
+            <p id="content">
+              ipsum dolor sit amet<br>consectetur adipisicing elit.<br>
+              Quod, id sequi aut qui est ab,<br> corporis quis maiores<br>
+              reiciendis explicabo odio<br> tenetur nulla sint vel.
+            </p>
+            <span id="quote"><i class="fa-solid fa-quote-left"></i></span>
+          </div>
+        </div>
+        <!-- 上一張、下一張 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <button>See All Testmonials</button>
+    </div>
+  </section>
+
+  <!-- 輪播 3 -->
+  <section id="carousel3">
+    <div class="container">
+      <div id="swiper3" class="swiper" data-aos="fade-up" data-aos-duration="1500">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/carousel3-1.png">
+          </div>
+          <div class="swiper-slide"><img src="./images/carousel3-2.png">
+          </div>
+          <div class="swiper-slide"><img src="./images/carousel3-3.png">
+          </div>
+          <div class="swiper-slide"><img src="./images/carousel3-4.png">
+          </div>
+          <div class="swiper-slide"><img src="./images/carousel3-5.png">
+          </div>
+          <div class="swiper-slide"><img src="./images/carousel3-6.png">
+          </div>
+          <div class="swiper-slide"><img src="./images/carousel3-7.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Talanted Team Members -->
+  <section id="members">
+    <div class="container">
+      <h1 data-aos="fade-right" data-aos-duration="1500">Talanted Team Members</h1>
+      <div id="symbol">
+        <i class="fa-solid fa-minus fa-2xs"></i> <i class="fa-sharp fa-solid fa-square fa-2xs"></i> <i
+          class="fa-solid fa-minus fa-2xs"></i>
+      </div>
+      <div class="row">
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="img">
+              <div id="socialMedia" class="animate__animated">
+                <a href="#"><i class="fa-brands fa-facebook" title="facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" title="youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" title="instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" title="twitter"></i></a>
+              </div>
+            </div>
+            <h3>Ahmed Aly</h3>
+            <p>Founder</p>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="card">
+            <div class="img">
+              <!-- <span> <i class="fa-solid fa-arrow-right"></i></span> -->
+              <div id="socialMedia" class="animate__animated">
+                <a href="#"><i class="fa-brands fa-facebook" title="facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" title="youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" title="instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" title="twitter"></i></a>
+              </div>
+            </div>
+            <h3>Fairouz Amin</h3>
+            <p>Designer</p>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+          <div class="card">
+            <div class="img">
+              <!-- <span> <i class="fa-solid fa-arrow-right"></i></span> -->
+              <div id="socialMedia" class="animate__animated">
+                <a href="#"><i class="fa-brands fa-facebook" title="facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" title="youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" title="instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" title="twitter"></i></a>
+              </div>
+            </div>
+            <h3>Allan Smith</h3>
+            <p>Manager</p>
+          </div>
+        </div>
+      </div>
+      <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">See All Team Members</button>
+    </div>
+  </section>
+
+  <!-- Latest News -->
+  <section id="news">
+    <div class="container">
+      <h1 data-aos="fade-right" data-aos-duration="1000">Latest News</h1>
+      <div id="symbol">
+        <i class="fa-solid fa-minus fa-2xs"></i> <i class="fa-sharp fa-solid fa-square fa-2xs"></i> <i
+          class="fa-solid fa-minus fa-2xs"></i>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="img">
+              <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+              <div class="date">
+                <span>05</span>
+                <span>oct,2020</span>
+              </div>
+            </div>
+            <div id="info">
+              <a href="#"><i class="fa-solid fa-rectangle-list"></i>&ensp;Cloud</a>&ensp; |&ensp;
+              <a href="#"><i class="fa-solid fa-user"></i>&ensp;Allan Moore</a>
+            </div>
+            <div id="text">
+              <a href="#">
+                <h4>Love What You Do To Do What You Love?</h4>
+              </a>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure nulla dolorem, voluptates molestiae</p>
+              <a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="img">
+              <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+              <div class="date">
+                <span>15</span>
+                <span>sep,2020</span>
+              </div>
+            </div>
+            <div id="info">
+              <a href="#"><i class="fa-solid fa-rectangle-list"></i>&ensp;Design</a>&ensp; |&ensp;
+              <a href="#"><i class="fa-solid fa-user"></i>&ensp;Mhmd Amin</a>
+            </div>
+            <div id="text">
+              <a href="#">
+                <h4>The Stroy Of Our Great Fathers</h4>
+              </a>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure nulla dolorem, voluptates molestiae</p>
+              <a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="img">
+              <span class="animate__animated animate__fadeInDown"> <i class="fa-solid fa-arrow-right"></i></span>
+              <div class="date">
+                <span>27</span>
+                <span>aug,2020</span>
+              </div>
+            </div>
+            <div id="info">
+              <a href="#"><i class="fa-solid fa-rectangle-list"></i>&ensp;Life Style</a>&ensp; |&ensp;
+              <a href="#"><i class="fa-solid fa-user"></i>&ensp;Yusuf Amin</a>
+            </div>
+            <div id="text">
+              <a href="#">
+                <h4>Making Your Fancy Thoughts Exist</h4>
+              </a>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure nulla dolorem, voluptates molestiae</p>
+              <a href="#" class="readMore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QA -->
+  <section id="questions">
+    <div class="container">
+      <h1 data-aos="fade-right" data-aos-duration="1000">Still Have More Questions?</h1>
+      <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Lorem Ipsum Dolor Sit Amet Consectetur
+        Adipisicing Elit. Sunt, Architecto Cupiditate Odio Rerum Est</p>
+      <div id="symbol" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <i class="fa-solid fa-minus fa-2x"></i> <i class="fa-solid fa-square fa-2xs"></i> <i
+          class="fa-solid fa-minus fa-2x"></i>
+      </div>
+      <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Get In Touch</button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <!-- <i class="fa-solid fa-pipe"></i> -->
+    <div class="container">
+      <div class="row">
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <h3>About Archito</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Voluptatibus facere modi possimus dignissimos,
+            aliquam nobis eaque? Voluptatem magnam quisquam rem.</p>
+          <div id="socialMedia">
+            <a href="#"><i class="fa-brands fa-facebook" title="facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube" title="youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram" title="instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" title="twitter"></i></a>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#"> Google</a></li>
+            <li><a href="#"> Dribbble</a></li>
+            <li><a href="#"> LinkedIn</a></li>
+            <li><a href="#"> Wikipiddia</a></li>
+          </ul>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#"> Support</a></li>
+            <li><a href="#"> Dashboard</a></li>
+            <li><a href="#"> Drivers</a></li>
+            <li><a href="#"> Project</a></li>
+          </ul>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <h3>Contact Information</h3>
+          <ul>
+            <li><i class="fa-solid fa-earth-americas"></i> www.yoursite.com</li>
+            <li><i class="fa-solid fa-envelope"></i> example@support.com</li>
+            <li><i class="fa-solid fa-location-dot"></i> 5 xyz st., abc, alexandria, egypt.</li>
+            <li><i class="fa-solid fa-mobile-screen-button"></i> +20123456789</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <p id="copyright">© 2020 Created by: mhmd amin</p>
+        <p><a href="#"> Terms of Use</a> <i class="fa-solid fa-pipe" style="color: #fff;"></i> <a href="#"> Privacy
+            Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/aos.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    // 頂端欄白底
+    function topLight() {
+      $('#top').css(
+        {
+          'box-shadow': '0px 10px 8px rgba(0, 0, 0, 0.1)',
+          'background': '#fff',
+        }
+      )
+      $('#top .col, #top .col a').css('color', '#252525')
+      $('#top .col img').attr('src', './images/logo-dark.png')
+    }
+    // 頂端欄透明
+    function topDark() {
+      $('#top').css(
+        {
+          'box-shadow': 'none',
+          'background': 'rgba(0, 0, 0, 0)',
+        }
+      )
+      $('#top .col, #top .col a').css('color', '#fff')
+      $('#top .col img').attr('src', './images/logo-light.png')
+    }
+
+    // 頁面滾動頂端欄變色
+    $(window).on('scroll', function () {
+      if (window.scrollY >= 100) {
+        $('#arrowUp').show()
+        topLight()
+      } else {
+        $('#arrowUp').hide()
+        if ($('#sidebar').hasClass('animate__slideOutLeft')) topDark()
+        else topLight()
+      }
+    })
+
+    // 鼠標滑過頂端列時顯示選單
+    $('#top .row li').each(function (i) {
+      $(this).on('mouseover', function () {
+        // 先把顯示的選單都隱藏
+        $('#top .list').addClass('animate__fadeOutDown')
+        if (i === 1 || i === 6 || i === 7) return
+        if (i === 0) $('#top .list').eq(i).removeClass('animate__fadeOutDown').addClass('animate__fadeInUp').show()
+        else $('#top .list').eq(i - 1).removeClass('animate__fadeOutDown').addClass('animate__fadeInUp').show()
+      })
+    })
+
+    // 鼠標離開任一選單時
+    $('#top .list').each(function () {
+      $(this).on('mouseleave', function () {
+        $(this).addClass('animate__fadeOutDown')
+        $('#top #blogList').addClass('animate__fadeOutDown')
+      })
+      $('#top #blogList li').eq(0).on('mouseover', function () {
+        $('#top #BlogHomeList').removeClass('animate__fadeOutDown').addClass('animate__fadeInUp').show()
+      })
+    })
+
+    // 側邊攔收合
+    let sidebarCount = 0
+    $('#top .col').eq(2).on('click', function () {
+      sidebarCount++
+      if (sidebarCount % 2) {
+        $('#sidebar').addClass('animate__slideOutLeft')
+        topDark()
+      } else {
+        $('#sidebar').removeClass('animate__slideOutLeft').addClass('animate__slideInLeft').show()
+        topLight()
+      }
+    })
+
+    // 側邊欄內各項目收合
+    let sidebarUlCount = 0
+    $('#sidebar li').each(function (i) {
+      $(this).on('click', function () {
+        sidebarUlCount++
+        if (sidebarUlCount % 2 !== 0) {
+          if (i === 0) $('#sidebar #homeList').show()
+          else if (i === 8) $('#sidebar #serviceList').show()
+          else if (i === 11) $('#sidebar #portfoiloList').show()
+          else if (i === 17) $('#sidebar #blogList').show()
+          else if (i === 18) $('#sidebar #BlogHomeList').show()
+          else if (i === 23) $('#sidebar #pagesList').show()
+        } else {
+          if (i === 0) $('#sidebar #homeList').hide()
+          else if (i === 8) $('#sidebar #serviceList').hide()
+          else if (i === 11) $('#sidebar #portfoiloList').hide()
+          else if (i === 17) $('#sidebar #blogList').hide()
+          else if (i === 18) $('#sidebar #BlogHomeList').hide()
+          else if (i === 23) $('#sidebar #pagesList').hide()
+        }
+      })
+    })
+
+    $('#members .col .card').each(function (i) {
+      $(this).on('mouseover', function () {
+        $('#members .card #socialMedia').eq(i).removeClass('animate__slideOutDown').addClass('animate__slideInUp').show()
+      })
+      $(this).on('mouseleave', function () {
+        $('#members .card #socialMedia').eq(i).addClass('animate__slideOutDown')
+      })
+    })
+
+    $('#news .col .card').each(function (i) {
+      $(this).on('mouseover', function () {
+        $(`#news .col:nth-child(${i + 1}) .img`).css(
+          {
+            'background-size': '110%',
+            'background-image': `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/news-${i + 1}.jpg')`
+          }
+        )
+        $('#news .img span:not(#news .date span)').eq(i).show()
+      })
+      $(this).on('mouseleave', function () {
+        $(`#news .col:nth-child(${i + 1}) .img`).css(
+          {
+            'background-size': 'cover',
+            'background-image': `url('./images/news-${i + 1}.jpg')`
+          }
+        )
+        $('#news .img span:not(#news .date span) ').eq(i).hide()
+      })
+    })
+
+    const swiper1 = new Swiper('#swiper1', {
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 90,
+      // 淡入淡出
+      effect: "fade",
+      // 避免看到下面的內容
+      fadeEffect: {
+        crossFade: true
+      },
+      speed: 1000,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    // 換輪播 1 背景
+    swiper1.on('slideChange', function () {
+      if (swiper1.realIndex === 0) {
+        $('#carousel1').css('background-image', `url('./images/top-1.jpg')`)
+      } else if (swiper1.realIndex === 1) {
+        $('#carousel1').css('background-image', `url('./images/top-2.jpg')`)
+      } else {
+        $('#carousel1').css('background-image', `url('./images/top-3.jpg')`)
+      }
+    })
+
+    const swiper2 = new Swiper('#swiper2', {
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 15,
+      speed: 1000,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+
+    const swiper3 = new Swiper('#swiper3', {
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView: 2,
+      spaceBetween: 5,
+      grabCursor: true,
+      speed: 1000,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 3,
+        },
+        992: {
+          slidesPerView: 6,
+        },
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    const swiper4 = new Swiper('#swiper4', {
+      direction: 'horizontal',
+      loop: true,
+      spaceBetween: 15,
+      grabCursor: true,
+      speed: 1000,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+
+    AOS.init();
+
+    // 取得視窗高度
+    $(function () {
+      $('#carousel1').css('height', `${window.innerHeight}`)
+    })
+
+    // 視窗高度改變時
+    window.onresize = function () {
+      $('#carousel1').css('height', `${window.innerHeight}`)
+    }
+  </script>
+</body>
+
+</html>
